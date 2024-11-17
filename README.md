@@ -1,4 +1,6 @@
 # 2b IMPLEMENTATION OF SLIDING WINDOW PROTOCOL
+# Name:Sandeep S
+# Reg:212223220092
 ## AIM
 To implent the program for the implementationof sliding window protocol
 ## ALGORITHM:
@@ -29,9 +31,7 @@ while True:
     if ack:
        print(ack)
        i+=s
-
 ```
-
 # SERVER
 ```
 import socket
@@ -42,7 +42,6 @@ while True:
     s.send("acknowledgement recived from the server".encode())
 ```
 ## OUPUT
-
 # CLIENT 
 ![image](https://github.com/user-attachments/assets/c400041d-0758-4738-8831-856d894c5bb9)
 # SERVER 
